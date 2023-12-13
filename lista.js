@@ -1,6 +1,6 @@
-const lista = ["Um","Dois","Três"]
+const lista = ["Um", "Dois", "Três"]
 
-function getlista(){
+function getLista(){
     return lista
 }
 
@@ -13,7 +13,7 @@ function adicionaNaLista(novoItem){
 }
 
 function removeDaLista(indice){
-    lista.splite(intice,1)   
+    lista.splice(indice, 1)
 }
 
-export {getlista, limpaLista, adicionaNaLista, removeDaLista}
+export {getLista, limpaLista, adicionaNaLista, removeDaLista}
